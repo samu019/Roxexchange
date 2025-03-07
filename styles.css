@@ -1,0 +1,130 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #0000ff; /* Texto azul */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #0000ff; /* Borde azul */
+}
+
+header h1 {
+    font-size: 24px;
+    color: #0000ff; /* Azul */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 14px;
+    color: #0000ff; /* Azul */
+    text-align: center;
+}
+
+.conversion-box {
+    margin-top: 20px;
+}
+
+.conversion-box h2 {
+    font-size: 20px;
+    color: #0000ff; /* Azul */
+    margin-bottom: 15px;
+}
+
+.timer {
+    font-size: 18px;
+    color: #0000ff; /* Azul */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.currency-selector {
+    margin-bottom: 20px;
+}
+
+.currency-selector label {
+    font-size: 16px;
+    color: #0000ff; /* Azul */
+    margin-right: 10px;
+}
+
+.currency-selector select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #0000ff; /* Borde azul */
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #0000ff; /* Azul */
+}
+
+.amount-input input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #0000ff; /* Borde azul */
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #0000ff; /* Azul */
+    margin-bottom: 20px;
+}
+
+.currencies .currency {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #0000ff; /* Borde azul */
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.currencies .currency:hover {
+    background-color: #e6f0ff; /* Azul claro al hacer hover */
+}
+
+.currencies .currency label {
+    font-size: 16px;
+    color: #0000ff; /* Azul */
+}
+
+.currencies .currency span {
+    font-size: 16px;
+    color: #0000ff; /* Azul */
+}
+
+.currencies .currency small {
+    font-size: 12px;
+    color: #0000ff; /* Azul */
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+footer nav a {
+    color: #0000ff; /* Azul */
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer nav a:hover {
+    color: #0044cc; /* Azul más oscuro al hacer hover */
+}

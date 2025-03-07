@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROsEXCHANGE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ROlexEXCHANGE</h1>
+            <p>Última actualización: <span id="updateDate">07 mar. 2025 03:54</span></p>
+        </header>
+
+        <main>
+            <div class="conversion-box">
+                <h2>Convertir</h2>
+                <div class="timer">
+                    <span id="countdown">60</span> segundos
+                </div>
+                <div class="currency-selector">
+                    <label for="baseCurrency">Moneda base:</label>
+                    <select id="baseCurrency">
+                        <option value="XAF">XAF</option>
+                        <option value="USD">USD</option>
+                        <option value="RUB">RUB</option>
+                        <option value="EUR">EUR</option>
+                        <option value="ZMW">ZMW</option>
+                        <option value="BRL">BRL</option>
+                        <option value="CUP">CUP</option>
+                        <option value="DOP">DOP</option>
+                    </select>
+                </div>
+                <div class="amount-input">
+                    <input type="number" id="amount" placeholder="Ingresa una cantidad" value="100000">
+                </div>
+                <div class="currencies">
+                    <!-- Las monedas se generarán dinámicamente con JavaScript -->
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Convertir</a>
+                <a href="#">Enviar</a>
+                <a href="#">Actividad</a>
+                <a href="#">Gráficos</a>
+            </nav>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
